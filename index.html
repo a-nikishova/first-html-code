@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans:wght@100;400;600&display=swap" rel="stylesheet">
+    <title>Layouts training</title>
+</head>
+<body>
+    <div class="main__screen">
+        <header class="header">
+            <div class="header__container">
+                <div class="header__inner">
+                    <div class="header__logo">Crowdme</div>
+                    <nav class="nav">
+                        <a class="nav__link" href="#">Home</a>
+                        <a class="nav__link" href="#">How it works</a>
+                        <a class="nav__link" href="#">Discover a project</a>
+                        <a class="nav__link" href="#">Blog</a>
+                        <a class="nav__link" href="#">Find out more</a>
+
+                    </nav>
+                    <button class="login__button">Login</button>
+
+                </div>
+
+            </div>
+        </header>
+        <div class="page-1">
+            <div class="page_1__overlay">
+                <div class="sec-intro-container">
+                    <div class="intro__inner">
+                        <h1 class="intro__title">Intellectual Property has the Shelf Life</h1>
+                        <h2 class="intro__subtitle">of a Banana</h2>
+                    </div>
+                    <button class="become__button">Become a Member</button>
+
+                </div>
+
+            </div>
+            <div class="arrows__container">
+                <a href="#"><img src="assets/images/right_arrow.png" class="left__arrow"></a>
+                <a href="#"><img src="assets/images/right_arrow.png" class="right__arrow"></a>
+            </div>
+        </div>
+    </div>
+    <div class="page__2__container">
+        <div class="page__2__text__block">
+            <img src="assets/images/Shape 846.png" class="shape__846">
+            <h1 class="page__2__title">Our work is the presentation  of our capabilities</h1>
+            <h6 id="page__2__text"></h6>
+            <h6 id="page__2__text2"></h6>
+        </div>
+        
+        <div class="page__2__slider">
+            <div class="slider__items__container">
+                <div class="slider__item__container  w__180">
+                    <div class="page__2__slider__item">
+                        <div class="circled__number">
+                            <div class="number">1</div>
+                        </div>
+                        <div class="slider__item__name">Simple</div>
+                    </div>
+                </div>
+
+                <div class="slider__item__container  w__270">
+                    <div class="page__2__slider__item">
+                        <div class="circled__number">
+                            <div class="number">2</div>
+                        </div>
+                        <div class="slider__item__name">Transparent</div>
+
+                    </div>
+                </div>
+                
+                <div class="slider__item__container  w__270">
+                    <div class="page__2__slider__item">
+                        <div class="circled__number">
+                            <div class="number">3</div>
+                        </div>
+                        <div class="slider__item__name">Collaborative</div>
+
+                    </div>
+                </div>               
+            </div>
+            
+
+        </div>
+    </div>
+    
+
+
+
+
+</body>
+<script>
+    var page2Text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.";
+    var page2Text2 = "Ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.";
+    document.getElementById('page__2__text').innerHTML = page2Text;
+    document.getElementById('page__2__text2').innerHTML = page2Text2;
+</script>
+</html>
