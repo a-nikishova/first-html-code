@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link href="<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
     <title>Layouts training</title>
 </head>
 <body>
@@ -12,7 +12,19 @@
         <header class="header">
             <div class="header__container">
                 <div class="header__inner">
-                    <div class="header__logo">Crowdme</div>
+                    <div class="header__logo__container">
+                        <div class="logo__box">
+                            <div class="logo__1__container">
+                                <div class="logo__elements__core logo__1__1"></div>
+                                <div class="logo__elements__core logo__1__2"></div>
+                            </div>
+                            <div class="logo__elements__core logo__2"></div>
+                            <div class="logo__elements__core logo__3"></div>
+
+                        </div>
+                        <div class="header__logo">Crowdme</div>
+                    </div>
+                    
                     <nav class="nav">
                         <a class="nav__link" href="#">Home</a>
                         <a class="nav__link" href="#">How it works</a>
@@ -34,97 +46,103 @@
                         <h1 class="intro__title">Intellectual Property has the Shelf Life</h1>
                         <h2 class="intro__subtitle">of a Banana</h2>
                     </div>
-                    <button class="become__button">Become a Member</button>
+                    <div class="become__button">Become a Member</div>
 
                 </div>
 
-            </div>
-            <div class="arrows__container">
-                <a href="#"><img src="assets/images/right_arrow.png" class="left__arrow"></a>
-                <a href="#"><img src="assets/images/right_arrow.png" class="right__arrow"></a>
             </div>
         </div>
     </div>
     <div class="white__box__container">
-        <div class="page__2__text__block">
-            <img src="assets/images/Shape 846.png" class="shape__846">
-            <h1 class="page__2__title">Our work is the presentation  of our capabilities</h1>
-            <h6 id="page__2__text"></h6>
-            <h6 id="page__2__text2"></h6>
-        </div>
-        
-        <div class="page__2__slider">
-            <div class="slider__items__container">
-                <div class="slider__item__container  w__180">
-                    <div class="page__2__slider__item">
-                        <div class="circled__number">
-                            <div class="number">1</div>
-                        </div>
-                        <div class="slider__item__name">Simple</div>
-                    </div>
+        <div class="page__2__container">
+            <div class="page__2__text__block">
+                <div class="logo__title__container">
+                    <img src="assets/images/Shape 846.png" class="shape__846">
+                    <h1 class="page__2__title">Our work is the presentation  of our capabilities</h1>
                 </div>
-
-                <div class="slider__item__container  w__270">
-                    <div class="page__2__slider__item">
-                        <div class="circled__number">
-                            <div class="number">2</div>
-                        </div>
-                        <div class="slider__item__name">Transparent</div>
-
-                    </div>
+                <div class="page__2__text">
+                    <h6 id="page__2__text"></h6>
+                    <h6 id="page__2__text2"></h6>
                 </div>
                 
-                <div class="slider__item__container  w__270">
-                    <div class="page__2__slider__item">
-                        <div class="circled__number">
-                            <div class="number">3</div>
+            </div>            
+        </div>
+
+
+        <div class="page__3__container">
+            <div class="page__3__slider">
+                <div class="slider__items__container">
+                    <div class="slider__item__container">
+                        <div class="page__3__slider__item">
+                            <div class="circled__number">
+                                <div class="number">1</div>
+                            </div>
+                            <div class="slider__item__name">Simple</div>
                         </div>
-                        <div class="slider__item__name">Collaborative</div>
-
                     </div>
-                </div>               
-            </div>
-            
 
-        </div>
-        <div class="glass__block">
-            <div class="glasses__img__container">
-                <img src="assets/images/glasses.png">
+                    <div class="slider__item__container">
+                        <div class="page__3__slider__item">
+                            <div class="circled__number">
+                                <div class="number">2</div>
+                            </div>
+                            <div class="slider__item__name">Transparent</div>
+
+                        </div>
+                    </div>
+
+                    <div class="slider__item__container">
+                        <div class="page__3__slider__item">
+                            <div class="circled__number">
+                                <div class="number">3</div>
+                            </div>
+                            <div class="slider__item__name">Collaborative</div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="glasses__text__container">
-                <div class="glass__title">Browse projects, like booking a hotel online!</div>
-                <div class="glass__simple__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do lore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+            <div class="glass__block">
+                <div class="glasses__img__container">
+                    <img src="assets/images/glasses.png">
+                </div>
+                <div class="glasses__text__container">
+                    <div class="glass__title">Browse projects, like booking a hotel online!</div>
+                    <div class="glass__simple__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do lore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                </div>
+            </div>
+
+            <div class="color__blocks__container">
+                <div class="find__container" style="background-color: #E2F8FF;">
+                    <div class="find__img__container">
+                        <img src="assets/images/chair.png">
+                    </div>
+                    <div class="find__text__container">
+                        <div class="find__title">Find Properties</div>
+                        <div class="find__text">
+                            Sign up to browse the portfolio.
+                            Your journey to becoming a real estate baron starts here.
+                        </div>
+                        <button class="find__btn blue__btn">Become A Member</button>
+                    </div>
+                </div>
+                <div class="find__container" style="background-color: #F5F9EB;">
+                    <div class="find__img__container">
+                        <img src="assets/images/pocket.png">
+                    </div>
+                    <div class="find__text__container">
+                        <div class="find__title">Find Buyers</div>
+                        <div class="find__text">
+                            Sign up to browse the portfolio.
+                            Your journey to becoming a real estate baron starts here.
+                        </div>
+                        <button class="find__btn green__btn">Submit Your Project</button>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="color__blocks__container">
-            <div class="find__container" style="background-color: #E2F8FF;">
-                <div class="find__img__container">
-                    <img src="assets/images/chair.png">
-                </div>
-                <div class="find__text__container">
-                    <div class="find__title">Find Properties</div>
-                    <div class="find__text">
-                        Sign up to browse the portfolio.
-                        Your journey to becoming a real estate baron starts here.
-                    </div>
-                    <button class="find__btn" style="background-color: rgba(38, 166, 209, 1);">Become A Member</button>
-                </div>
-            </div>
-            <div class="find__container" style="background-color: #F5F9EB;">
-                <div class="find__img__container">
-                    <img src="assets/images/pocket.png">
-                </div>
-                <div class="find__text__container">
-                    <div class="find__title">Find Buyers</div>
-                    <div class="find__text">
-                        Sign up to browse the portfolio.
-                        Your journey to becoming a real estate baron starts here.
-                    </div>
-                    <button class="find__btn" style="background-color: rgba(173, 209, 54, 1)">Submit Your Project</button>
-                </div>
-            </div>
-        </div>
+ 
         <div class="featured__proj__container">
             <div class="projects__header__container">
                 <div class="title__container">
@@ -139,13 +157,123 @@
                 </div>
             </div>
             <div class="projects__container">
-                <div class="project__card"></div>
-                <div class="project__card"></div>
-                <div class="project__card"></div>
+                <div class="project__card">
+                    <div class="photo__container" style="background: url(' ./assets/images/Layer 16.png') center no-repeat;">
+                        <div class="new__corner"></div>
+                        <div class="new__label">New</div>
+                        <button class="project__item__btn">From GBP  3600</button>
+                    </div>
+                    <div class="project__item__content">
+                        <div class="item__title">Ontario Tower , LONDON</div>
+                        <div class="item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                        <div class="load__bar">
+                            <div class="progress__status" style="width: 10%;"></div>
+                        </div>
+                        <div class="item__numbers__container">
+                            <span>10% Funded</span>
+                            <span>8 Days Left</span>
+                        </div>
+                    </div>
+                    <div class="details__container">
+                        <div class="details__inner__container">
+                            <div class="details__text">See Project Details</div>
+                            <div class="triangle"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="project__card">
+                    <div class="photo__container" style="background: url(' ./assets/images/Layer 20.png') center no-repeat;">
+                        <div class="new__corner"></div>
+                        <div class="new__label">New</div>
+                        <button class="project__item__btn">From GBP  3600</button>
+                    </div>
+                    <div class="project__item__content">
+                        <div class="item__title">Ontario Tower , LONDON</div>
+                        <div class="item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                        <div class="load__bar">
+                            <div class="progress__status" style="width: 60%;"></div>
+                        </div>
+                        <div class="item__numbers__container">
+                            <span>10% Funded</span>
+                            <span>8 Days Left</span>
+                        </div>
+                    </div>
+                    <div class="details__container">
+                        <div class="details__inner__container">
+                            <div class="details__text">See Project Details</div>
+                            <div class="triangle"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="project__card">
+                    <div class="photo__container" style="background: url(' ./assets/images/Layer 16.png') center no-repeat;">
+                        <div class="new__corner"></div>
+                        <div class="new__label">New</div>
+                        <button class="project__item__btn">From GBP  3600</button>
+                    </div>
+                    <div class="project__item__content">
+                        <div class="item__title">Ontario Tower , LONDON</div>
+                        <div class="item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                        <div class="load__bar">
+                            <div class="progress__status" style="width: 10%;"></div>
+                        </div>
+                        <div class="item__numbers__container">
+                            <span>10% Funded</span>
+                            <span>8 Days Left</span>
+                        </div>
+                    </div>
+                    <div class="details__container">
+                        <div class="details__inner__container">
+                            <div class="details__text">See Project Details</div>
+                            <div class="triangle"></div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    
+    <div class="last__section__container">
+        <div class="last__title">Be Part of a Growing International Community</div>
+        <div class="last__text">One of the challenges in networking is everybody thinks it's making cold calls to strangers. Actually, it's the people who already have strong trust relationships with you</div>
+        <div class="comments__container">
+            <div class="comment__container">
+                <div class="comment__shape">
+                    <div class="comment__content__container">
+                        <div class="comment__title">One of the Best</div>
+                        <div class="comment__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod taempor incididunt ut labore et dolore magna aliqua.</div>
+                    </div>
+                </div>
+                <div class="author__container">
+                    <img src="./assets/images/Layer 23.png" class="author__photo">
+                    <div class="author__name">David Beckham</div>
+                </div>
+                </div>
+            <div class="comment__container">
+                <div class="comment__shape">
+                    <div class="comment__content__container">
+                        <div class="comment__title">Exellent Service</div>
+                        <div class="comment__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod taempor incididunt ut labore et dolore magna aliqua.</div>
+                    </div>                   
+                </div>
+                <div class="author__container">
+                    <img src="./assets/images/Layer 24.png" class="author__photo">
+                    <div class="author__name">David Beckham</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__container">
+        <div class="logos__container">
+            <img src="./assets/images/Layer 25.png">
+        </div>
+        <div class="copyrights__container">
+            Copyright © 2001 - 2014  Cssauthor.com
+        </div>
+    </div>
+
 
 
 
